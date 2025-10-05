@@ -53,7 +53,7 @@ nvidia-smi
 # Copy dataset to scratch for faster I/O
 echo "Copying dataset to scratch for faster processing..."
 cp -r /courses/DS5500.202610/data/team11/VGG-Face2 /scratch/$USER/
-DATASET_PATH="/scratch/$USER/VGG-Face2"
+DATASET_PATH=/courses/DS5500.202610/data/team11/VGG-Face2
 
 # Run the training with validated parameters
 python master_training.py \
