@@ -1,0 +1,13 @@
+torch>=2.1
+torchvision>=0.16
+numpy
+pillow
+opencv-python
+facenet-pytorch
+mlflow
+tqdm
+kornia
+pandas
+matplotlib
+seaborn
+scikit-learn

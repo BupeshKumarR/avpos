@@ -1,0 +1,77 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+.env
+.venv
+venv/
+ENV/
+*.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+logs/
+*.log
+wandb/
+lightning_logs/
+
+# Results, checkpoints, visualizations
+results/
+**/results/**
+checkpoints/
+**/checkpoints/**
+outputs/
+**/outputs/**
+figures/
+**/figures/**
+plots/
+**/plots/**
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.svg
+
+# Large data
+VGG-Face2/
+**/VGG-Face2/**
+/courses/
+/projects/
+/scratch/
+
+# Cache
+.cache/
+**/.cache/**
+__cache__/
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Build
+dist/
+build/
+*.egg-info/
+
+# Slurm outputs
+slurm-*.out
+*.err
+*.out
+
+# Temporary
+*.tmp
+*.bak
+*~

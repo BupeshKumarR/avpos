@@ -1,0 +1,5 @@
+,similarity,similarity,similarity,similarity,privacy_score,privacy_score,privacy_score,privacy_score
+,mean,std,min,max,mean,std,min,max
+method,,,,,,,,
+gaussian_blur,0.2033,0.193,-0.0743,0.4819,0.7967,0.193,0.5181,1.0743
+pixelation,-0.0702,0.0327,-0.0979,-0.0234,1.0702,0.0327,1.0234,1.0979

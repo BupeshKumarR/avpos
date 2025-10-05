@@ -1,0 +1,46 @@
+{
+  "summary": {
+    "('similarity', 'mean')": {
+      "gaussian_blur": 0.2033,
+      "pixelation": -0.0702
+    },
+    "('similarity', 'std')": {
+      "gaussian_blur": 0.193,
+      "pixelation": 0.0327
+    },
+    "('similarity', 'min')": {
+      "gaussian_blur": -0.0743,
+      "pixelation": -0.0979
+    },
+    "('similarity', 'max')": {
+      "gaussian_blur": 0.4819,
+      "pixelation": -0.0234
+    },
+    "('privacy_score', 'mean')": {
+      "gaussian_blur": 0.7967,
+      "pixelation": 1.0702
+    },
+    "('privacy_score', 'std')": {
+      "gaussian_blur": 0.193,
+      "pixelation": 0.0327
+    },
+    "('privacy_score', 'min')": {
+      "gaussian_blur": 0.5181,
+      "pixelation": 1.0234
+    },
+    "('privacy_score', 'max')": {
+      "gaussian_blur": 1.0743,
+      "pixelation": 1.0979
+    }
+  },
+  "total_samples": 20,
+  "methods_evaluated": [
+    "gaussian_blur",
+    "pixelation"
+  ],
+  "recommendations": [
+    "Best privacy-preserving method: pixelation (privacy score: 1.070)",
+    "Excellent privacy preservation achieved!",
+    "Most consistent method: pixelation"
+  ]
+}
